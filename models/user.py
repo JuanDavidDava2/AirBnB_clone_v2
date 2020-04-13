@@ -25,3 +25,5 @@ class User(BaseModel, Base):
     last_name = Column(String(128), nullable=True)
 
     places = relationship('Place', backref='user', cascade='all, delete')
+
+    places = relationship("Place", backref="user", cascade="all, delete")

@@ -17,4 +17,4 @@ def do_pack():
     result += " web_static"
     if local(result) == 1:
         return None
-return tgz
+    return tgz

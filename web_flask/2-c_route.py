@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 from flask import Flask
 app = Flask(__name__)
-pp.url_map.strict_slashes = False
+app.url_map.strict_slashes = False
 
 
 @app.route('/')
